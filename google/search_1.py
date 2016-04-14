@@ -10,7 +10,7 @@ import unittest, time, re
 class Untitled(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(20)
         self.base_url = "https://www.google.ru/"
         self.verificationErrors = []
         self.accept_next_alert = True
